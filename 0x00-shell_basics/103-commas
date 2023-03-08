@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Ap | awk '{printf "%s,",$0}' | sed -E 's/(.*),/\1\n/' | sed 's/^\.\///' | sed 's/\//\//g'
+ls -ma
