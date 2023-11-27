@@ -6,7 +6,7 @@ server {
     listen      [::]:80 default_server ipv6only=on;
 
     # Use IP of server as domain name
-    ubuntu 34.203.29.225;
+    server_name 34.203.29.225;
 
     # Customize HTTP response header
     add_header  X-Served-By 347371-web-01;
